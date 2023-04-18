@@ -1,0 +1,2 @@
+Prefix plugins/AlphaTTest/example/
+Plugin AlphaTTest inputfile parameters.txt outputfile Observed/
