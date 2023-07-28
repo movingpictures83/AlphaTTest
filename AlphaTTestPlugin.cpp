@@ -24,6 +24,7 @@ void AlphaTTestPlugin::output(std::string file) {
    std::string command = "compare_alpha_diversity.py ";
  command += "-i "+std::string(PluginManager::prefix())+"/"+parameters["matrix"];
  command += " -m "+std::string(PluginManager::prefix())+"/"+parameters["mapping"];
+ //command += " -p none";
  command += " -d "+parameters["depth"];
  command += " -t "+parameters["test"];
  command += " -c "+parameters["column"];
